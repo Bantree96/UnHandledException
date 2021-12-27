@@ -1,0 +1,9 @@
+﻿<Application x:Class="UnHandledException.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UnHandledException"
+             StartupUri="MainWindow.xaml" DispatcherUnhandledException="Application_DispatcherUnhandledException">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
