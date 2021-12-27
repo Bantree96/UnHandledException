@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 
 namespace UnHandledException
 {
@@ -39,7 +40,6 @@ namespace UnHandledException
             Log.Fatal(e.Exception.ToString());
 
             MessageBox.Show(e.Exception.ToString());
-
         }
 
     }
